@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    box-sizing: border-box;
+}
+html, body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+header, footer {
+	flex: 0;
+}
+main {
+	flex: 1;
+}
+
+/* Main settings */
+body {
+    background: #f9f9f9;
+}
+.content_body {
+    width: 1060px;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow:  12px 0 15px -6px rgba(219, 219, 219, 0.8), -12px 0 8px -6px rgba(219, 219, 219, 0.8);
+}
+.wrap {
+    width: 966px;
+    max-width: 94%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+/* HEADER */
+header a {
+    font-size: 50px;
+    text-decoration: none;
+    color: #333333;
+}
+header nav {
+    background: linear-gradient(#5d5d5d, #454444);
+    margin-top: 26px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+header .main {padding-left: 25px; padding-right: 63px;}
+header .goods {padding-left: 23px; padding-right: 23px;}
+header .about_us {padding-left: 63px; padding-right: 43px;}
+header .contacts {padding-left: 43px; padding-right: 43px;}
+nav a {
+    font-size: 20px;
+    color: #fff;
+}
+header nav a:hover {
+    background: linear-gradient(#4a4a4a, #2f2f2f);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* MAIN */
+.content {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    background: #fff;
+    padding-top: 40px;
+}
+/* left side */
+.left-side {
+    flex-basis: 25%;
+    padding-right: 30px;
+}
+.menu {
+    font-size: 15px;
+    color: #333333;
+    border: 1px solid #c8c8c8;
+    padding-top: 15px;
+    padding-right: 22px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+}
+.menu a {
+    font-size: 15px;
+    color: #333333;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+.menu a:hover {
+    color: #000;
+    padding-left: 35px;
+}
+/* right side */
+.right-side {
+    flex-basis: 75%;
+    margin-left: 30px;
+}
+.img img {
+    border: 1px solid #c8c8c8;
+    width: 100%;
+    height: 100%;
+}
+.right-side p {
+    color: #2c2c2c;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 68px;
+    padding-left: 30px;
+}
+
+/* FOOTER */
+footer nav {
+    background: #e1e1e1;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+footer .main {padding-left: 25px; padding-right: 63px;}
+footer .goods {padding-left: 23px; padding-right: 23px;}
+footer .about_us {padding-left: 63px; padding-right: 43px;}
+footer .contacts {padding-left: 43px; padding-right: 43px;}
+footer a {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    color: #2c2c2c;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer p {
+    font-size: 15px;
+    color: #2c2c2c;
+    float: right;
+    padding-top: 5px;
+    padding-right: 26px;
+    padding-bottom: 5px;
+}
+footer .wrap {
+    padding-bottom: 60px;
+}
